@@ -1,11 +1,5 @@
 # Redirect rules
 [[redirects]]
-  from = "https://*.esy.com/*"
-  to = "https://www.esy.com/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
   from = "/essays/*"
   to = "https://esy-news.ghost.io/essays/:splat"
   status = 200
