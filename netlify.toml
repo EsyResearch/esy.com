@@ -1,20 +1,7 @@
 # Redirect rules
-
-[[redirects]]
- from = "/"
-  to = "/research"
-  status = 302
-  force = true
-
 [[redirects]]
   from = "https://*.esy.com/*"
   to = "https://www.esy.com/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "http://*.esy.com/*"
-  to = "https://esy.netlify.app/:splat"
   status = 301
   force = true
 
